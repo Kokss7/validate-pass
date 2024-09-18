@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- section -->
+    <main class="py-5">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <h1 class="py-2 position-relative">validation</h1>
+            <div
+                class="validation-body w-100 p-3 py-4 mt-5 d-flex flex-column justify-content-center align-items-center gap-4">
+                <h2>
+                    <i class="fa-solid fa-bookmark"></i>
+                    It's about js
+                    <i class="fa-solid fa-bookmark"></i>
+                </h2>
+                <div class="w-100 d-flex flex-column justify-content-center">
+                    <label for="" class="pb-2 fw-semibold">
+                        <i class="fa-solid fa-signature pe-2"></i>
+                        Name
+                    </label>
+                    <input type="text" placeholder="Enter Name" class="form-control" id="Name">
+                </div>
+                <div class="w-100 d-flex flex-column justify-content-center">
+                    <label for="" class="pb-2 fw-semibold">
+                        <i class="fa-solid fa-envelope pe-2"></i>
+                        Gmail
+                    </label>
+                    <input type="text" placeholder="Enter Gmail" class="form-control" id="Gmail">
+                </div>
+                <div class="w-100 d-flex flex-column justify-content-center">
+                    <label for="" class="pb-2 fw-semibold">
+                        <i class="fa-solid fa-lock pe-2"></i>
+                        password
+                    </label>
+                    <input type="password" placeholder="Enter password" class="form-control" id="password">
+                </div>
+                <div class="w-100 d-flex flex-column justify-content-center">
+                    <label for="" class="pb-2 fw-semibold">
+                        <i class="fa-solid fa-unlock pe-2"></i>
+                        confirm password
+                    </label>
+                    <input type="password" placeholder="confirm password" class="form-control" id="repassword">
+                    <p id="message"></p>
+                </div>
+                <button class="btn btn-submit px-5" id="submitBtn" onclick="validatePassword()">Submit</button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
